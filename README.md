@@ -17,3 +17,6 @@ YOLO ("you only look once") is a popular algoritm because it achieves high accur
   * The dimension for anchor boxes is the second to last dimension in the encoding: (m,nH,nW,anchors,classes)(m,nH,nW,anchors,classes). </br>
   * The YOLO architecture is: IMAGE (m, 608, 608, 3) -> DEEP CNN -> ENCODING (m, 19, 19, 5, 85). </br>
   
+### NOTE
+* To generate yolo.h5 file go to this [link](https://github.com/allanzelener/YAD2K). Place that in **model_data** folder. </br>
+* Input images are in the **images** directory and the correcponding output images are in the **out** directory. </br>
